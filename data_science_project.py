@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Title of the application
-st.title('🍕Food Delivery Apps Data Analysis🍔')
+st.markdown("<h3>🍕 Food Delivery Apps Data Analysis 🍔</h3>", unsafe_allow_html=True)
 
 # File upload
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
